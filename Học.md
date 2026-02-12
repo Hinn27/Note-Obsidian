@@ -2,4 +2,4 @@
 ![[Chưa đặt tên.base]]
 
 ## Kotlin
-[Roadmap](https://roadmap.sh/android)
+<span style= "font-size: 18px">[Roadmap](https://roadmap.sh/android)</span>
