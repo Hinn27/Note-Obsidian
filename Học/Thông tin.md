@@ -1,3 +1,2 @@
-+ Hiện tại có:
-	+ [[Hinn/Học/NodeJS/|NodeJS]]
+## NodeJS
 ![[Chưa đặt tên.base]]
