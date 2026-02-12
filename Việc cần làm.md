@@ -1,1 +1,2 @@
-- [ ] Ăn sáng + Sữa đậu nành (@ 🔺 🛫 2026-03-01🔁 every day ⏳ 
+- [ ] Ăn sáng + Sữa đậu nành (@ 🔺 🛫 (2026-03-01) 🔁 every day )
+- [ ] 
