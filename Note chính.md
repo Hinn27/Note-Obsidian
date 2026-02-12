@@ -1,3 +1,4 @@
+## Mập lênnnn:
 
 ## Hướng phát triển:
 1. Học Kotlin với JetBrains và [roadmap.sh](http://roadmap.sh)
@@ -18,4 +19,3 @@
         - Tập trung vào kiến trúc sạch, phân lớp rõ, test được; sau này mang đi showcase khi apply job Android
 2. Học React Web ở trường
 3. Hệ quản trị CSDL dùng Supabase (PostgreSQL) luyện kỹ năng thiết kế Database chuẩn chỉ
-- [ ] Mập lên nào 🔺 🔁 every day when done 🛫 2006-03-01 ⏳ 2006-02-28
