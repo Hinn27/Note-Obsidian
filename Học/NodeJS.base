@@ -1,9 +1,15 @@
 filters:
   and:
     - file.inFolder("Hinn/Học/NodeJS")
+formulas:
+  Untitled: ""
 views:
   - type: table
     name: Table
     order:
       - file.fullname
-    sort: []
+    sort:
+      - property: formula.Untitled
+        direction: ASC
+  - type: cards
+    name: View
