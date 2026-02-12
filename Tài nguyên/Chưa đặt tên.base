@@ -6,5 +6,5 @@ views:
     name: Table
     filters:
       and:
-        - file.inFolder("Hinn/Học/NodeJS")
+        - file.inFolder("Hinn/Tài nguyên/NodeJS")
     cardSize: 460
