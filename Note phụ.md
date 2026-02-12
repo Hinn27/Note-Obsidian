@@ -24,3 +24,49 @@
 ```
 
 ## Tên Valorant
+- [ ] đọt là phụ
+- [ ] ai tâm lý móc sẽ yếu
+- [ ] sích ma đặt
+- [ ] chocopie chấm ớt
+- [ ] dầu thơm meo bính
+- [ ] what da hail
+- [ ] stoobit
+- [ ] lộn vãi là
+- [ ] xong trận đi ngủ
+- [ ] ốm ai đeo
+- [ ] 2tay2vumombulonem
+- [ ] thích màu nho
+- [ ] vừa bắc vừa nấu
+- [ ] dạt là đầu
+- [ ] who's ur daddy
+- [ ] vegetarian
+- [ ] floor cleaner
+- [ ] ăn thịt người giàu
+- [ ] ngù thèm dưới
+- [ ] lĩ nhộ hâm thơi
+- [ ] chỉ chơi với người tin bò biết bay
+- [x] duelist da den
+- [ ] ví đầu teo
+- [ ] toidamlam,bancodamkhong
+- [ ] siêu nhân sư tử, phịch rên ư ử
+- [ ] mùa chó thay lông, anh cũng thay lòng
+- [ ] con cu tự ái, hòn dái cô đơn
+- [ ] chăm ẻ nhưng buồn học / chăm học nhưng buồn ẻ
+- [ ] con thầy, vợ bạn, gái loli
+- [ ] tỉnh cơn bay lắc, nắc vợ người ta
+- [ ] sáng ăn bánh đúc, tối súc bình xăng
+- [ ] bặc cự đại du
+- [ ] nhĩ lộ
+- [ ] 3 xị show lỗ nhị
+- [ ] lặc cỏ
+- [ ] lall ma bick
+- [ ] cộn cái là
+- [ ] nến và rưng
+- [ ] bỏ đá volibear
+- [ ] bắn ngu vayne
+- [ ] orn ni chan
+- [ ] thợ săn háng lạ ở Láng Hạ
+- [ ] oan hồn âm ti, nghịch bi thằng bạn
+- [ ] tóc 2 mái, dái âm dương
+- [ ] cô pé xinh xinh có cây đinh chính giữa
+- [ ] the king is black
