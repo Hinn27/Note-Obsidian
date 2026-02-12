@@ -2,4 +2,4 @@
 ![[Chưa đặt tên.base]]
 
 ## Kotlin
-[Roadmap](https://roadmap.sh/android)
+Link roadmap có sẵn tài liệu ở [[T]]
