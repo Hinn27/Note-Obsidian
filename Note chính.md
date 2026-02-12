@@ -1,5 +1,3 @@
-## Mập lênnnn:
-
 ## Hướng phát triển:
 1. Học Kotlin với JetBrains và [roadmap.sh](http://roadmap.sh)
 	1. Làm quen Kotlin:
