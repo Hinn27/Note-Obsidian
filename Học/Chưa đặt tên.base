@@ -1,0 +1,9 @@
+filters:
+  and:
+    - file.inFolder("Hinn/Học/NodeJS")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.fullname
+    sort: []
