@@ -1,1 +1,3 @@
-- [ ] Ăn sáng + Sữa đậu nành (@)
+- [ ] Ăn sáng + Sữa đậu nành 📅 2026-03-02 🔺 🔁 every day 
+- [ ] Test 📅 2026-02-12
+- [ ] 
