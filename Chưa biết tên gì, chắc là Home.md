@@ -1,3 +1,3 @@
-Đây là *khối lưu trữ* mới của bạn.
+- Code mẫu, PDF, những thứ liên quan 
 
 Ghi chú điều gì đó, [[tạo một liên kết]], hoặc thử [Trình nhập](https://help.obsidian.md/Plugins/Importer)!
