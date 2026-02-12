@@ -1,0 +1,9 @@
+properties:
+  file.name:
+    displayName: Tên file
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Hinn/Học/NodeJS")
