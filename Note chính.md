@@ -1,4 +1,4 @@
-## Hướng phát triển:
+## Android Dev :
 1. Học Kotlin với JetBrains và [roadmap.sh](http://roadmap.sh)
 	1. Làm quen Kotlin:
         - Học syntax: null safety, data class, extension function, lambda, higher‑order function
