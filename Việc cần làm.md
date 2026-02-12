@@ -1,1 +1,2 @@
-- [ ] Proby 🆔 8maotx 🔺 🔁 every day 🛫 2026-03-01
+- [ ] Proby🔺 🔁 every day 🛫 2026-03-01
+- [ ] Ăn sáng + sữa đậu nành 🔺 🔁 every day 🛫 2026-03-01
