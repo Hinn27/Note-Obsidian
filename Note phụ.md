@@ -15,7 +15,6 @@
 "seekbar_custom_color": true,
 "seekbar_custom_color_accent": "#FF2781",
 "seekbar_custom_color_primary": "#1700FF",
-"settings_search_entries": "chất lượng\ntốc độ\nngôn\ntải xuống\ngiả mạo",
 "swipe_save_and_restore_brightness": false,
 "video_quality_default_mobile": 2160,
 "video_quality_default_wifi": 2160,
@@ -23,3 +22,5 @@
 "sb_local_time_saved_milliseconds": 3369410,
 "sb_local_time_saved_number_segments": 130
 ```
+
+## Tên Valorant
