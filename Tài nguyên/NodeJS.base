@@ -8,3 +8,5 @@ views:
       and:
         - file.inFolder("Hinn/Tài nguyên/NodeJS")
     cardSize: 500
+    imageFit: contain
+    imageAspectRatio: 2.5
