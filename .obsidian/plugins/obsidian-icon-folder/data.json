@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "📚"
     ],
     "recentlyUsedIconsSize": 5,
@@ -30,5 +31,5 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Tài nguyên": "📚"
+  "Anh chuyên ngành": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
 }

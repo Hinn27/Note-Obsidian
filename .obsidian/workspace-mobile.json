@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
+                "file": "Tài liệu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HOME"
+              "title": "Tài liệu"
             }
           }
         ]
@@ -178,8 +178,8 @@
   },
   "active": "1361229cfe4ca3b2",
   "lastOpenFiles": [
-    "Note chính.md",
     "HOME.md",
+    "Note chính.md",
     "Anh chuyên ngành/Unit 2.md",
     "Anh chuyên ngành/Unit 3.md",
     "Hinn/Chưa đặt tên 1.md",
