@@ -5,4 +5,5 @@
 
 <span style="color: red">hehe</span>
 
+Cách setup sync:
 https://youtu.be/ImrLbomFYA0
