@@ -1,3 +1,6 @@
 {
-  "cssTheme": "AMOLED Serenity"
+  "cssTheme": "AMOLED Serenity",
+  "monospaceFontFamily": "CaskaydiaCove Nerd Font Mono",
+  "theme": "obsidian",
+  "accentColor": "#0000ff"
 }
