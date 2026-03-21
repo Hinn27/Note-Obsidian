@@ -4,3 +4,5 @@
 ### - Note phụ ở [[Hinn/Note phụ|Đặc biệt k quan trọng]]
 
 <span style="color: red">hehe</span>
+
+https://youtu.be/ImrLbomFYA0
