@@ -3,7 +3,4 @@
 ## - Note quan trọng ở  [[Note chính|Đặc biệt quan trọng luôn]]
 ### - Note phụ ở [[Hinn/Note phụ|Đặc biệt k quan trọng]]
 
-<span style="color: red">hehe</span>
-
-Cách setup sync:
-https://youtu.be/ImrLbomFYA0
+### Cách setup <span style="color: red">sync</span>: https://youtu.be/ImrLbomFYA0
