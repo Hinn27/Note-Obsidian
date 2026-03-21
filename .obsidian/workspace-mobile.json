@@ -11,14 +11,14 @@
             "id": "1361229cfe4ca3b2",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "HOME.md",
-                "bFile": "HOME.md",
-                "aRef": ""
+                "file": "Note chính.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: HOME"
+              "icon": "lucide-file",
+              "title": "Note chính"
             }
           }
         ]
@@ -178,8 +178,17 @@
   },
   "active": "1361229cfe4ca3b2",
   "lastOpenFiles": [
-    "HOME.md",
-    "Tài nguyên/NodeJS.base",
-    "Tài nguyên/NodeJS/TH02_07_Hướng dẫn giải Bài tập chương 02.pdf"
+    "Tài nguyên/NodeJS/TH06_06_Bài tập về truy vấn có điều kiện trong Nodejs.pdf",
+    "Tài nguyên/NodeJS/TH06_05_Indexing trong Nodejs.pdf",
+    "Tài nguyên/NodeJS/TH06_04_Pagination trong Nodejs.pdf",
+    "Tài nguyên/NodeJS/TH06_03_Truy vấn có điều kiện MongoDB.pdf",
+    "Tài nguyên/NodeJS/TH06_02_Thao tác dữ liệu trong MongoDB.pdf",
+    "Tài nguyên/NodeJS/TH06_01_Cài đặt, tạo và kết nối MongoDB với Nodejs.pdf",
+    "Tài nguyên/NodeJS/TH05_06_Sử dụng mô hình MVC.pdf",
+    "Tài nguyên/NodeJS/TH05_05_Sử dụng Joi trong Nodejs.pdf",
+    "Tài nguyên/NodeJS/TH05_04_Sử dụng Query trong Nodejs.pdf",
+    "Tài nguyên/NodeJS/TH05_02_Sử dụng Router trong Nodejs.pdf",
+    "/Tài nguyên/NodeJS/TH06_06_Bài tập về truy vấn có điều kiện trong Nodejs.pdf",
+    "HOME.md"
   ]
 }
