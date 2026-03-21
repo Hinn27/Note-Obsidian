@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "fbcd2b5bc6d0046c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a39cbbfba8e85fe6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1361229cfe4ca3b2",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "aFile": "HOME.md",
+                "bFile": "HOME.md",
+                "aRef": ""
+              },
+              "icon": "git-pull-request",
+              "title": "Diff: HOME"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8314918123891397",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "74943c7ab0f67437",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Trình duyệt tệp"
+        }
+      },
+      {
+        "id": "2161c3b21950e9df",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Tìm kiếm"
+        }
+      },
+      {
+        "id": "a67a8402a9f14b5c",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Thẻ"
+        }
+      },
+      {
+        "id": "067e243366162e83",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "Tất cả thuộc tính"
+        }
+      },
+      {
+        "id": "d0f6c55cec1c9714",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Đánh dấu"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "7418659722dd84c4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ec9ff08e34edcf1a",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Liên kết đến"
+        }
+      },
+      {
+        "id": "9f744d536d2c679b",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Liên kết đi ra"
+        }
+      },
+      {
+        "id": "f3ca4e0774474b6e",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Đề cương"
+        }
+      },
+      {
+        "id": "d286c0140628d05c",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Mở bộ chuyển đổi nhanh": false,
+      "graph:Mở xem biểu đồ": false,
+      "canvas:Tạo bảng mới": false,
+      "daily-notes:Mở ghi chú hôm nay": false,
+      "templates:Chèn mẫu": false,
+      "command-palette:Mở khay lệnh": false,
+      "bases:Tạo cơ sở mới": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "1361229cfe4ca3b2",
+  "lastOpenFiles": [
+    "HOME.md",
+    "Tài nguyên/NodeJS.base",
+    "Tài nguyên/NodeJS/TH02_07_Hướng dẫn giải Bài tập chương 02.pdf"
+  ]
+}
