@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chưa đặt tên.md",
+                "file": "tong-ket-du-an.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chưa đặt tên"
+              "title": "tong-ket-du-an"
             }
           }
         ],
@@ -193,8 +193,10 @@
   },
   "active": "b081cfd8685a6626",
   "lastOpenFiles": [
-    "HOME.md",
     "Chưa đặt tên.md",
+    "tong-ket-du-an.md",
+    "/tong-ket-du-an.md",
+    "HOME.md",
     "Tài liệu.md",
     "Note chính.md",
     "Anh chuyên ngành/Unit 2.md",
