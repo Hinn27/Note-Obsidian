@@ -1,4 +1,4 @@
 # 
 ---
 ## BTVN: 1 đoạn về Software Developer
-Hello. My name is Duc. I'm a student majoring in IT. I wanna become a good backend developer and eventually a full stack developer. So, i'm trying to learn more about Docker, Firebase and Linux to be able to become a full stack developer. My job is very high income, funny but it's very stressful. I and my team building a project with React. Sometimes, the pressure of work make me tired but i'm very dedicated to the work. I will try my best for the job
+Hi, I'm Duc, an IT major. I aspire to be a Backend Developer and, ultimately, a Full-stack Engineer. I'm sharpening my skills in Docker, Firebase, and Linux to reach that goal. I find this field both challenging and exciting, even though it can be quite stressful. My team and I are working on a React project at the moment. I remain deeply committed to my work and always strive for excellence.
