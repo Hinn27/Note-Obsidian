@@ -6,8 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "📚"
+      "LiCalendar",
+      "LiNotebookTabs",
+      "LiBookmarkMinus",
+      "📔",
+      "LiNotepadText"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,6 +34,8 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Anh chuyên ngành": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-  "Tài nguyên": "📚"
+  "Tài nguyên": "LiBookmarkMinus",
+  "Inbox": "LiNotepadText",
+  "Notes": "LiNotebookTabs",
+  "Daily": "LiCalendar"
 }

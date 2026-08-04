@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc5ed5779d7ab2ae",
+        "id": "2ccdc151d43b5420",
         "type": "tabs",
         "children": [
           {
-            "id": "92ceeef52a543ec4",
+            "id": "dca943f1bc7a9723",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2026-08-02.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-08-02"
             }
           }
         ]
@@ -37,12 +41,10 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Trình duyệt tệp"
             }
           },
           {
@@ -79,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8c25e1b8a9251211",
@@ -95,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily/2026-08-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +108,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Liên kết đến của 2026-08-02"
             }
           },
           {
@@ -113,11 +117,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily/2026-08-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Liên kết đi ra từ 2026-08-02"
             }
           },
           {
@@ -146,7 +151,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Tất cả thuộc tính"
             }
           },
           {
@@ -155,15 +160,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Daily/2026-08-02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Đề cương của 2026-08-02"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -172,15 +179,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Mở bộ chuyển đổi nhanh": false,
+      "graph:Mở xem biểu đồ": false,
+      "canvas:Tạo bảng mới": false,
+      "daily-notes:Mở ghi chú hôm nay": false,
+      "templates:Chèn mẫu": false,
+      "command-palette:Mở khay lệnh": false,
+      "bases:Tạo cơ sở mới": false
     }
   },
-  "active": "92ceeef52a543ec4",
-  "lastOpenFiles": []
+  "active": "dca943f1bc7a9723",
+  "lastOpenFiles": [
+    "Daily/2026-07-29.md",
+    "Daily/2026-08-02.md",
+    "Prototype.md",
+    "Chưa đặt tên.canvas",
+    "Chưa đặt tên.base",
+    "Chưa đặt tên 1.base",
+    "Daily/Chưa đặt tên.md",
+    "Notes/Tên Valorant.md",
+    "Tài liệu.md",
+    "Note phụ.md",
+    "Daily",
+    "Notes",
+    "Inbox",
+    "Note.md",
+    "Note linh tinh.md",
+    "Inbox.md",
+    "Tài nguyên/NodeJS.base",
+    "tong-ket-du-an.md"
+  ]
 }

@@ -2,5 +2,8 @@
   "cssTheme": "Things",
   "monospaceFontFamily": "CaskaydiaCove Nerd Font Mono",
   "theme": "obsidian",
-  "accentColor": "#aeccfc"
+  "accentColor": "#aeccfc",
+  "enabledCssSnippets": [
+    "noctalia"
+  ]
 }
