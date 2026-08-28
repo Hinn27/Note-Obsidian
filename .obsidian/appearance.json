@@ -1,9 +1,12 @@
 {
   "cssTheme": "Things",
-  "monospaceFontFamily": "CaskaydiaCove Nerd Font Mono",
-  "theme": "obsidian",
-  "accentColor": "#aeccfc",
+  "monospaceFontFamily": "Arial",
+  "theme": "system",
+  "accentColor": "",
   "enabledCssSnippets": [
     "noctalia"
-  ]
+  ],
+  "textFontFamily": "Source Code Pro",
+  "baseFontSize": 16,
+  "nativeMenus": false
 }
