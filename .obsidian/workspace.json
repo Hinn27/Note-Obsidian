@@ -169,6 +169,18 @@
               "icon": "lucide-list",
               "title": "Đề cương"
             }
+          },
+          {
+            "id": "05962a8a61087e75",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Notes/Tính năng của Tailscale.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Chú thích"
+            }
           }
         ],
         "currentTab": 4
@@ -185,7 +197,8 @@
       "daily-notes:Mở ghi chú hôm nay": false,
       "templates:Chèn mẫu": false,
       "command-palette:Mở khay lệnh": false,
-      "bases:Tạo cơ sở mới": false
+      "bases:Tạo cơ sở mới": false,
+      "markdown-importer:Mở trình chuyển đổi Markdown": false
     }
   },
   "active": "01921e18de90f2e2",
