@@ -1,7 +1,7 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "",
   "monospaceFontFamily": "Arial",
-  "theme": "system",
+  "theme": "obsidian",
   "accentColor": "",
   "enabledCssSnippets": [
     "noctalia"

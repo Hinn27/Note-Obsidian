@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ed7ae4887559489d",
+        "id": "f57d3ee8ae343bdf",
         "type": "tabs",
         "children": [
           {
-            "id": "0d1b7c1d624fa9bb",
+            "id": "01921e18de90f2e2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Tính năng của Tailscale.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Tab mới"
+              "title": "Tính năng của Tailscale"
             }
           }
         ]
@@ -95,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2026-08-02.md",
+                "file": "Notes/Tính năng của Tailscale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của 2026-08-02"
+              "title": "Liên kết đến"
             }
           },
           {
@@ -157,13 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2026-08-02.md",
+                "file": "Notes/Tính năng của Tailscale.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 2026-08-02"
+              "title": "Đề cương"
             }
           }
         ],
@@ -171,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,8 +188,23 @@
       "bases:Tạo cơ sở mới": false
     }
   },
-  "active": "0d1b7c1d624fa9bb",
+  "active": "01921e18de90f2e2",
   "lastOpenFiles": [
+    "Notes/Tên Valorant.md",
+    "Notes/Slash Commands AGY.md",
+    "Notes/Quản lý phiên bản nnlt bằng flake.md",
+    "Notes/Phím tắt Niri và Yazi.md",
+    "Notes/Node.js và những câu hỏi ngu.md",
+    "Notes/NestJS.md",
+    "Notes/Kết nối db.md",
+    "Notes/java web 1.md",
+    "Notes/Home server mini.md",
+    "Notes/Docker 🐳.md",
+    "Notes/Chọn mode gõ.md",
+    "Notes/Chọn AI.md",
+    "Notes/Cách dùng runit.md",
+    "Notes/Tính năng của Tailscale.md",
+    "Notes/Docker.md",
     "2026-08-28.md",
     "Daily/2026-08-02.md",
     "Daily/2026-07-29.md",
@@ -195,7 +213,6 @@
     "Chưa đặt tên.base",
     "Chưa đặt tên 1.base",
     "Daily/Chưa đặt tên.md",
-    "Notes/Tên Valorant.md",
     "Tài liệu.md",
     "Note phụ.md",
     "Daily",
