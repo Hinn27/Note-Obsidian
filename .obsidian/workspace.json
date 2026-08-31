@@ -11,14 +11,12 @@
             "id": "01921e18de90f2e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "docx-viewer",
               "state": {
-                "file": "Notes/Tính năng của Tailscale.md",
-                "mode": "preview",
-                "source": false
+                "file": "Tài nguyên/TS/Huong_dan_clone_project_GitHub.docx"
               },
               "icon": "lucide-file",
-              "title": "Tính năng của Tailscale"
+              "title": "Huong_dan_clone_project_GitHub"
             }
           }
         ]
@@ -161,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Tính năng của Tailscale.md",
+                "file": "Tài nguyên/TS/Huong_dan_clone_project_GitHub.docx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -203,6 +201,12 @@
   },
   "active": "01921e18de90f2e2",
   "lastOpenFiles": [
+    "Tài nguyên/TS/Buổi 1-Cài đặt môi trường.pptx",
+    "Tài nguyên/QLDAPM/CNTT.2026.50.Quan Ly Du An Phan Mem_260630_Coban.pdf",
+    "Tài nguyên/NodeJS/TH01_01_Cài đặt Nodejs vào máy tính.pdf",
+    "Tài nguyên/NestJS/Bài 01_Giới thiệu và cài đặt Nestjs.pdf",
+    "Tài nguyên/NodeJS.base",
+    "Notes/Tính năng của Tailscale.md",
     "Notes/Tên Valorant.md",
     "Notes/Slash Commands AGY.md",
     "Notes/Quản lý phiên bản nnlt bằng flake.md",
@@ -216,7 +220,6 @@
     "Notes/Chọn mode gõ.md",
     "Notes/Chọn AI.md",
     "Notes/Cách dùng runit.md",
-    "Notes/Tính năng của Tailscale.md",
     "Notes/Docker.md",
     "2026-08-28.md",
     "Daily/2026-08-02.md",
@@ -233,8 +236,6 @@
     "Inbox",
     "Note.md",
     "Note linh tinh.md",
-    "Inbox.md",
-    "Tài nguyên/NodeJS.base",
-    "tong-ket-du-an.md"
+    "Inbox.md"
   ]
 }
