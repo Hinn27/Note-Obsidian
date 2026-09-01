@@ -11,12 +11,12 @@
             "id": "01921e18de90f2e2",
             "type": "leaf",
             "state": {
-              "type": "docx-viewer",
+              "type": "pptx-viewer",
               "state": {
-                "file": "Tài nguyên/TS/Huong_dan_clone_project_GitHub.docx"
+                "file": "Tài nguyên/TS/Buổi 3.pptx"
               },
               "icon": "lucide-file",
-              "title": "Huong_dan_clone_project_GitHub"
+              "title": "Buổi 3"
             }
           }
         ]
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tài nguyên/TS/Huong_dan_clone_project_GitHub.docx",
+                "file": "Tài nguyên/TS/Buổi 3.pptx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,6 +201,11 @@
   },
   "active": "01921e18de90f2e2",
   "lastOpenFiles": [
+    "Tài nguyên/TS/Buổi 2.pptx",
+    "Tài nguyên/TS/Buổi 3.pptx",
+    "Tài nguyên/TS/Buổi 1.pptx",
+    "Tài nguyên/TS/Buổi 10.pptx",
+    "Notes/Node.js và những câu hỏi ngu.md",
     "Tài nguyên/TS/Buổi 1-Cài đặt môi trường.pptx",
     "Tài nguyên/QLDAPM/CNTT.2026.50.Quan Ly Du An Phan Mem_260630_Coban.pdf",
     "Tài nguyên/NodeJS/TH01_01_Cài đặt Nodejs vào máy tính.pdf",
@@ -211,7 +216,6 @@
     "Notes/Slash Commands AGY.md",
     "Notes/Quản lý phiên bản nnlt bằng flake.md",
     "Notes/Phím tắt Niri và Yazi.md",
-    "Notes/Node.js và những câu hỏi ngu.md",
     "Notes/NestJS.md",
     "Notes/Kết nối db.md",
     "Notes/java web 1.md",
@@ -231,9 +235,6 @@
     "Daily/Chưa đặt tên.md",
     "Tài liệu.md",
     "Note phụ.md",
-    "Daily",
-    "Notes",
-    "Inbox",
     "Note.md",
     "Note linh tinh.md",
     "Inbox.md"
