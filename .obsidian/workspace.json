@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8c25e1b8a9251211",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Tính năng của Tailscale.md",
+                "file": "Tài nguyên/TS/Buổi 3.pptx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,12 +117,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2026-08-02.md",
+                "file": "Tài nguyên/TS/Buổi 3.pptx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ 2026-08-02"
+              "title": "Liên kết đi ra"
             }
           },
           {
@@ -181,11 +182,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
