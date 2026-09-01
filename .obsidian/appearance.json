@@ -1,12 +1,9 @@
 {
-  "cssTheme": "",
-  "monospaceFontFamily": "Arial",
-  "theme": "obsidian",
-  "accentColor": "",
   "enabledCssSnippets": [
     "noctalia"
   ],
-  "textFontFamily": "Source Code Pro",
-  "baseFontSize": 16,
-  "nativeMenus": false
+  "theme": "obsidian",
+  "cssTheme": "",
+  "interfaceFontFamily": "Maple Mono NF",
+  "textFontFamily": "Maple Mono NF"
 }

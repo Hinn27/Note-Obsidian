@@ -11,12 +11,14 @@
             "id": "01921e18de90f2e2",
             "type": "leaf",
             "state": {
-              "type": "pptx-viewer",
+              "type": "markdown",
               "state": {
-                "file": "Tài nguyên/TS/Buổi 3.pptx"
+                "file": "Notes/Quản lý phiên bản nnlt bằng flake.md",
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Buổi 3"
+              "title": "Quản lý phiên bản nnlt bằng flake"
             }
           }
         ]
@@ -81,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8c25e1b8a9251211",
@@ -203,29 +204,29 @@
   },
   "active": "01921e18de90f2e2",
   "lastOpenFiles": [
-    "Tài nguyên/TS/Buổi 2.pptx",
-    "Tài nguyên/TS/Buổi 3.pptx",
-    "Tài nguyên/TS/Buổi 1.pptx",
-    "Tài nguyên/TS/Buổi 10.pptx",
+    "Notes/Slash Commands AGY.md",
+    "Notes/Quản lý phiên bản nnlt bằng flake.md",
+    "Notes/Phím tắt Niri và Yazi.md",
     "Notes/Node.js và những câu hỏi ngu.md",
+    "Notes/Home server mini.md",
+    "Notes/Tính năng của Tailscale.md",
+    "Notes/Tên Valorant.md",
+    "Notes/NestJS.md",
+    "Notes/Kết nối db.md",
+    "Notes/java web 1.md",
+    "Notes/Docker 🐳.md",
+    "Notes/Chọn mode gõ.md",
+    "Notes/Chọn AI.md",
+    "Notes/Cách dùng runit.md",
+    "Tài nguyên/TS/Buổi 2.pptx",
+    "Tài nguyên/TS/Buổi 1.pptx",
+    "Tài nguyên/TS/Buổi 3.pptx",
+    "Tài nguyên/TS/Buổi 10.pptx",
     "Tài nguyên/TS/Buổi 1-Cài đặt môi trường.pptx",
     "Tài nguyên/QLDAPM/CNTT.2026.50.Quan Ly Du An Phan Mem_260630_Coban.pdf",
     "Tài nguyên/NodeJS/TH01_01_Cài đặt Nodejs vào máy tính.pdf",
     "Tài nguyên/NestJS/Bài 01_Giới thiệu và cài đặt Nestjs.pdf",
     "Tài nguyên/NodeJS.base",
-    "Notes/Tính năng của Tailscale.md",
-    "Notes/Tên Valorant.md",
-    "Notes/Slash Commands AGY.md",
-    "Notes/Quản lý phiên bản nnlt bằng flake.md",
-    "Notes/Phím tắt Niri và Yazi.md",
-    "Notes/NestJS.md",
-    "Notes/Kết nối db.md",
-    "Notes/java web 1.md",
-    "Notes/Home server mini.md",
-    "Notes/Docker 🐳.md",
-    "Notes/Chọn mode gõ.md",
-    "Notes/Chọn AI.md",
-    "Notes/Cách dùng runit.md",
     "Notes/Docker.md",
     "2026-08-28.md",
     "Daily/2026-08-02.md",
@@ -233,7 +234,6 @@
     "Prototype.md",
     "Chưa đặt tên.canvas",
     "Chưa đặt tên.base",
-    "Chưa đặt tên 1.base",
     "Daily/Chưa đặt tên.md",
     "Tài liệu.md",
     "Note phụ.md",
