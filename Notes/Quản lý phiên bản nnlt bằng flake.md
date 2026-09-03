@@ -2,7 +2,6 @@
 ```
 nix flake init -t github:the-nix-way/dev-templates#python
 echo "use flake" > .envrc
-echo "layout python" >> .envrc
 direnv allow
 ```
 - Bắt buộc: Phải có layout python để pip install không bị văng lỗi Read-only.
