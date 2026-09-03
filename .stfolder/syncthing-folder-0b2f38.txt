@@ -1,5 +1,0 @@
-# This directory is a Syncthing folder marker.
-# Do not delete.
-
-folderID: auzcf-fgud7
-created: 2026-03-10T09:36:33+07:00
