@@ -1,58 +1,71 @@
-# 1. PYTHON
-```
-nix flake init -t github:the-nix-way/dev-templates#python
-echo "use flake" > .envrc
-direnv allow
-```
-- Bắt buộc: Phải có layout python để pip install không bị văng lỗi Read-only.
-## 2. JS/TS/VUE/ANGULAR (Hệ sinh thái Node.js)
+> [!NOTE]
+> Thay vì dự án nào cũng setup môi trường, hãy gom các dự án cùng ngôn ngữ vào một thư mục cha (Workspace).
+> 1. Tạo thư mục cha (VD: mkdir Java-Workspace && cd Java-Workspace)
+> 2. Chạy 3 lệnh khởi tạo Nix ở đây.
+> 3. Kể từ giờ, cứ vô tư dùng các lệnh sinh code (nest new, pnpm create...) để tạo ra hàng loạt dự án con bên trong. Công cụ direnv sẽ tự động mang môi trường từ thư mục cha áp dụng xuống thư mục con.
+---
+## 1. HỆ SINH THÁI NODE.JS (React, Vue, NestJS, TS thuần...)
+Cơ chế của Node.js (nhờ file package.json và node_modules) quản lý thư viện độc lập cho từng thư mục. Do đó, áp dụng chiến thuật Workspace Cấp Cha là hoàn hảo 100%.
+### Bước 1: Setup 1 lần ở thư mục cha
 ```
 nix flake init -t github:the-nix-way/dev-templates#node
 echo "use flake" > .envrc
 direnv allow
 ```
-  (Chờ tải xong Node.js)
-- Tạo dự án mới: Tùy framework mà gõ lệnh tương ứng (Ví dụ: pnpm create vite, nest new, hoặc npm init).
-- Lưu ý: NPM/PNPM đã tự gom thư viện vào thư mục node_modules nội bộ của dự án nên KHÔNG CẦN lệnh layout (như bên Python).
-### Phần 2: Khởi tạo dự án (chọn 1 trong 2 mục đích)
+### Bước 2: Tạo các dự án con (bên trong thư mục cha)
+- Nếu làm **Frontend** (React/Vue bằng Vite):
+Sinh thẳng code vào thư mục hiện tại (nhờ dấu .)
+```
+mkdir frontend && cd frontend
+pnpm create vite@latest . --template react-ts
+pnpm install
+pnpm run dev
+```
+- Nếu làm **Backend** (NestJS):
+Lệnh này tự sinh ra thư mục backend
+```
+nest new backend --package-manager pnpm
+cd backend
+pnpm start:dev
+```
+---
+## 2. PYTHON (Data Science, AI, Backend Python)
+Lưu ý cực kỳ quan trọng: Không giống Node.js, Python quản lý thư viện bằng môi trường ảo (Virtualenv).
+- Nếu setup Nix ở thư mục cha: Toàn bộ dự án con sẽ dùng chung một rổ thư viện. (Tuyệt vời để học tập, làm bài tập vì cài 1 lần xài ở
+  mọi thư mục).
+- Nếu làm dự án công ty: Khuyên bạn KHÔNG setup ở thư mục cha, mà dự án nào phải tự setup Nix riêng cho dự án đó để không bị dính chùm thư viện.
+### Quy trình chuẩn cho 1 dự án (hoặc 1 Workspace học tập):
+1. Khởi tạo môi trường
+```
+nix flake init -t github:the-nix-way/dev-templates#python
+```
+2. RẤT QUAN TRỌNG: Thêm layout python để chống lỗi Read-only khi dùng lệnh pip
+```
+echo "use flake" > .envrc
+echo "layout python3" >> .envrc
+direnv allow
+```
 
-  Trường hợp A: Nếu bạn muốn tạo dự án Web Frontend (React + TypeScript)
-  Hiện nay cách tốt nhất và nhanh nhất để khởi tạo React là dùng công cụ Vite. Bạn chạy lệnh sau:
-
-    # Tạo mã nguồn React-TS ngay tại thư mục hiện tại (Lưu ý dấu chấm '.')
-    pnpm create vite@latest . --template react-ts
-
-    # Cài đặt các thư viện cần thiết cho React
-    pnpm install
-
-    # Chạy server phát triển (Mở trình duyệt để xem)
-    pnpm run dev
-
-  Trường hợp B: Nếu bạn muốn tạo dự án Backend/CLI thông thường (Node.js + TypeScript - Giống buoi3)
-
-    # Khởi tạo file package.json
-    pnpm init
-
-    # Cài đặt TypeScript và công cụ hỗ trợ chạy code nhanh (tsx)
-    pnpm add -D typescript @types/node tsx
-
-    # Tạo file cấu hình tsconfig.json
-    pnpm exec tsc --init
-
-    # Tạo thư mục và file code đầu tiên
-    mkdir src
-    echo "console.log('Hello world');" > src/index.ts
-
-    # Chạy thử code
-    pnpm exec tsx src/index.ts
+> [!NOTE]
+> Từ giờ cứ dùng pip install <tên> bình thường, thư viện sẽ lưu vào thư mục ẩn .direnv của dự án.
+---
 ## 3. JAVA (Spring Boot, Java Core)
+Giống như Node.js, Maven và Gradle tự quản lý file thư viện nội bộ.
+Bạn có thể áp dụng chiến thuật Workspace Cấp Cha thoải mái!
+Quy trình:
+Tải môi trường Java (JDK) vào thư mục cha
 ```
 nix flake init -t github:the-nix-way/dev-templates#java
 echo "use flake" > .envrc
 direnv allow
 ```
-- Ghi chú: Maven/Gradle đã tự lo phần quản lý thư viện, file cấu hình này chỉ dùng để "bơm" bản JDK phù hợp vào dự án.
-## 4. HTML / CSS thuần
-Không cần dùng Nix Flake hay setup môi trường gì cả! Vì trình duyệt web mặc định đã tự hiểu HTML/CSS rồi.
-- Cứ tạo thư mục, tạo file index.html và viết code bình thường.
-- Nếu muốn chạy một server ảo gọn nhẹ (Live Server), bạn có thể dùng template #node ở trên rồi chạy lệnh: npx serve hoặc npx live-server.
+> [!NOTE]
+> Lệnh này chỉ "bơm" bộ biên dịch Java JDK vào máy. Sau đó bạn dùng Spring Initializr hoặc IDE như IntelliJ/Eclipse để sinh code dự án con bình thường.
+---
+## 4. HTML / CSS / JS (Giao diện tĩnh)
+Không cần dùng Nix hay setup môi trường!
+- Trình duyệt đã hiểu sẵn HTML/CSS.
+- Mẹo: Nếu muốn chạy Live Server (tự động tải lại trang khi lưu
+  file), hãy chạy môi trường #node, sau đó gõ: pnpm dlx live-server
+- Ngay khi chạy lệnh, trình duyệt web của bạn sẽ tự động bật lên (hoặc bạn click vào link http://127.0.0.1:8080 trên Terminal).
+- Từ giờ, bạn cứ mở code lên sửa. Cứ mỗi lần bấm Lưu, màn hình web sẽ lập tức thay đổi theo thời gian thực! (Khi nào code xong, quay lại Terminal bấm Ctrl + C để tắt server).

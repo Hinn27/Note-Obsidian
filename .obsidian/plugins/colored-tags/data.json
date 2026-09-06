@@ -10,7 +10,8 @@
     "highTextContrast": false
   },
   "knownTags": {
-    "node": 1
+    "node": 1,
+    "volume": 2
   },
   "tagColors": {},
   "_version": 4
