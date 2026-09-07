@@ -174,7 +174,7 @@
   --text-success:               #4078f2;
   --text-selection:             #4078f2;
   --text-accent:                #4078f2;
-  --text-highlight-bg:          #50a14f;
+  --text-highlight-bg:          #4a9348;
 
   /* Interactive accent */
   --interactive-normal:         #e5e5e6;
@@ -221,15 +221,15 @@
   --h2-color:                   #4078f2;
   --h3-color:                   #a626a4;
   --h4-color:                   #a626a4;
-  --h5-color:                   #50a14f;
-  --h6-color:                   #50a14f;
+  --h5-color:                   #4a9348;
+  --h6-color:                   #4a9348;
 
   /* Links */
   --link-color:                 #4078f2;
   --link-color-hover:           #4078f2;
   --link-decoration-color:      #4078f2;
-  --link-external-color:        #50a14f;
-  --link-external-color-hover:  #50a14f;
+  --link-external-color:        #4a9348;
+  --link-external-color-hover:  #4a9348;
   --link-unresolved-color:      #b64439;
 
   /* Code */
@@ -248,9 +248,9 @@
   /* Graph view */
   --graph-line:                 #88abf7;
   --graph-node:                 #4078f2;
-  --graph-node-focused:         #50a14f;
+  --graph-node-focused:         #4a9348;
   --graph-node-tag:             #a626a4;
-  --graph-node-attachment:      #50a14f;
+  --graph-node-attachment:      #4a9348;
 
   /* Vault name */
   --vault-name-color:           #383a42;
