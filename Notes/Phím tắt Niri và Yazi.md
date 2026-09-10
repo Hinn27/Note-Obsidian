@@ -7,25 +7,41 @@ Dưới đây là danh sách tổng hợp các phím tắt di chuyển và quả
 - **`Ctrl + Shift + Z`** : Phóng to toàn màn hình một Pane (Đổi sang layout Stack để tập trung gõ code), ấn lại để thu nhỏ.
 - **`Ctrl + Shift + W`** (hoặc gõ `exit`) : Đóng Pane hiện tại
 ## 💻 Phím tắt Neovim cơ bản (Di chuyển & Split)
-### 🚶‍♂️ Di chuyển cơ bản
-- **`h`** / **`j`** / **`k`** / **`l`** : Sang trái / Xuống dưới / Lên trên / Sang phải
-- **`w`** / **`b`** : Tiến tới 1 từ / Lùi lại 1 từ
-- **`0`** (Số không) : Nhảy về đầu dòng
-- **`$`** : Nhảy về cuối dòng
-- **`gg`** : Nhảy lên dòng đầu tiên của file
-- **`G`** : Nhảy xuống dòng cuối cùng của file
-### 🪟 Quản lý Cửa sổ trong Neovim (Split)
-- **`:vs`** (hoặc `:vsplit`) : Chia dọc không gian code ra làm 2 (Trái/Phải)
-- **`:sp`** (hoặc `:split`) : Chia ngang không gian code ra làm 2 (Trên/Dưới)
-- **`Ctrl + H / J / K / L`** : Nhảy con trỏ qua lại giữa các ô code đã split bên trong Neovim
-- **`:q`** : Đóng ô code hiện tại
-## 📁 Phím tắt Yazi (File Manager)
-### 🚶‍♂️ Di chuyển & Điều hướng
-- **`k`** / **`j`** (hoặc `Lên`/`Xuống`) : Di chuyển con trỏ lên / xuống
-- **`h`** / **`l`** (hoặc `Trái`/`Phải`) : Lùi ra thư mục cha / Vào thư mục (hoặc mở file)
-- **`g g`** : Nhảy vọt lên trên cùng danh sách
-- **`G`** : Nhảy tọt xuống dưới cùng danh sách
-- **`~`** (dấu ngã) hoặc **`F1`** : Mở bảng trợ giúp (Liệt kê *toàn bộ* phím tắt)
+### 1. Phím tắt Cơ bản & Cửa sổ
+| **Phím tắt**      | **Chức năng**                                                         |
+| :---------------- | :-------------------------------------------------------------------- |
+| jk (trong lúc gõ) | Thoát chế độ gõ (về Normal mode) siêu tốc, không cần với tay bấm ESC. |
+| <leader>nh        | Xóa các vệt màu vàng highlight sau khi tìm kiếm xong.                 |
+| <leader>sv        | Chia đôi màn hình theo chiều Dọc (Split Vertical).                    |
+| <leader>sh        | Chia đôi màn hình theo chiều Ngang (Split Horizontal).                |
+| <leader>se        | Cân bằng lại kích thước của tất cả các cửa sổ đang mở.                |
+| <leader>sx        | Đóng cửa sổ hiện tại (Close).                                         |
+### 2. Giao diện & Tìm kiếm
+
+| Phím tắt   | Chức năng                                                             |
+| ---------- | --------------------------------------------------------------------- |
+| <leader>e  | Bật/Tắt cây thư mục bên trái (NvimTree).                              |
+| <leader>un | Xóa ngay lập tức mọi hộp thoại thông báo đang trôi nổi trên màn hình. |
+| <leader>ff | Mở bảng tìm kiếm file theo tên (cực nhanh).                           |
+| <leader>fg | Tìm một đoạn chữ/code nằm sâu bên trong toàn bộ Project.              |
+| <leader>fb | Chuyển đổi qua lại giữa các file đang được mở trong RAM (Buffers).    |
+### 3. Terminal (Mới nâng cấp) 🚀
+
+| Phím tắt            | Chức năng                                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------------------------ |
+| Alt + F12           | Bật/Tắt Terminal trượt từ dưới lên (Phong cách chuẩn Jetbrains). Lệnh bên trong vẫn chạy ngầm khi tắt. |
+| Ctrl + \            | Phím phụ để Bật/Tắt Terminal (Dành cho những ai quen tay xài VSCode).                                  |
+| jk (trong Terminal) | Khi bạn đang gõ lệnh, bấm jk để thoát ra ngoài chế độ gõ, cho phép bạn cuộn chuột lên xuống để xem Log |
+### 4. Lập trình & Code (LSP & Git)
+
+| Phím tắt              | Chức năng                                                                                                   |
+| --------------------- | ----------------------------------------------------------------------------------------------------------- |
+| s (bấm ở Normal mode) | Nhảy siêu tốc: Bấm s + gõ 2 chữ cái đầu của từ, màn hình sẽ gán phím tắt để bạn nhảy chuột thẳng đến từ đó. |
+| <leader>a             | Bật/Tắt mục lục xem danh sách Hàm/Biến (Outline) ở bên phải.                                                |
+| <leader>fm            | Auto-format (Căn chỉnh code cho đẹp) dùng được cho cả file hoặc 1 đoạn bôi đen.                             |
+| ]h                    | Nhảy đến đoạn code có thay đổi so với Git tiếp theo.                                                        |
+| [h                    | Nhảy lùi về đoạn code có thay đổi trước đó.                                                                 |
+| <leader>hp            | Xem trước (Preview) đoạn code gốc đã bị bạn xóa hoặc sửa trước khi Commit.                                  |
 ### 📝 Thao tác với File / Thư mục
 - **`Space`** (Phím cách) : Chọn hoặc Bỏ chọn file (để thao tác nhiều file cùng lúc)
 - **`y`** : Copy (Yank)
