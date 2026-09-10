@@ -1,21 +1,26 @@
 ---
 tags:
   - os/linux
-  - tool/wm
+  - tool/terminal
+  - tool/editor
+  - tool/cli
   - type/cheatsheet
 aliases:
-  - Niri Shortcuts
-  - Yazi Shortcuts
+  - Phím tắt Neovim
+  - Phím tắt Kitty
+  - Phím tắt WezTerm
+  - Phím tắt Yazi
 ---
-# Phím tắt Neovim & Kitty cơ bản
-Dưới đây là danh sách tổng hợp các phím tắt di chuyển và quản lý cửa sổ cơ bản nhất khi gõ code bằng Neovim trên Terminal Kitty.
-## 🐱 Phím tắt Kitty (Quản lý Pane/Cửa sổ Terminal)
+## 1. Phím tắt Kitty & WezTerm (Quản lý Pane/Cửa sổ Terminal)
 - **`Ctrl + Shift + Enter`** : Chia ngang (Thường dùng để mở Server chạy ngầm bên cạnh Editor)
 - **`Ctrl + Shift + O`** : Chia dọc (Hợp lý để mở Log chạy dài xuống dưới)
 - **`Ctrl + Shift + H / J / K / L`** : Di chuyển con trỏ qua lại giữa các Pane (giống phong cách Vim)
 - **`Ctrl + Shift + Z`** : Phóng to toàn màn hình một Pane (Đổi sang layout Stack để tập trung gõ code), ấn lại để thu nhỏ.
-- **`Ctrl + Shift + W`** (hoặc gõ `exit`) : Đóng Pane hiện tại
-## 💻 Phím tắt Neovim cơ bản (Di chuyển & Split)
+- **`Ctrl + Shift + W`** (hoặc gõ `exit`) : Đóng Pane/Tab hiện tại
+- **`Ctrl + Shift + T`** : Mở Tab mới
+- **`Ctrl + Tab`** / **`Ctrl + Shift + Tab`** : Nhảy qua lại giữa các Tab (có thể dùng `Ctrl + Shift + Trái / Phải`)
+- **`Ctrl + Shift + F`** : Bật thanh tìm kiếm chữ. Sau khi gõ, dùng phím **Mũi tên Lên / Xuống** (hoặc `Ctrl+P`/`Ctrl+N`) để nhảy qua lại giữa các kết quả. Bấm `Esc` để thoát.
+## 2. Phím tắt Neovim cơ bản (Di chuyển & Split)
 ### 1. Phím tắt Cơ bản & Cửa sổ
 | **Phím tắt**      | **Chức năng**                                                         |
 | :---------------- | :-------------------------------------------------------------------- |
@@ -34,11 +39,10 @@ Dưới đây là danh sách tổng hợp các phím tắt di chuyển và quả
 | <leader>ff | Mở bảng tìm kiếm file theo tên (cực nhanh).                           |
 | <leader>fg | Tìm một đoạn chữ/code nằm sâu bên trong toàn bộ Project.              |
 | <leader>fb | Chuyển đổi qua lại giữa các file đang được mở trong RAM (Buffers).    |
-### 3. Terminal (Mới nâng cấp) 🚀
+### 3. Terminal
 
 | Phím tắt            | Chức năng                                                                                              |
 | ------------------- | ------------------------------------------------------------------------------------------------------ |
-| Alt + F12           | Bật/Tắt Terminal trượt từ dưới lên (Phong cách chuẩn Jetbrains). Lệnh bên trong vẫn chạy ngầm khi tắt. |
 | Ctrl + \            | Phím phụ để Bật/Tắt Terminal (Dành cho những ai quen tay xài VSCode).                                  |
 | jk (trong Terminal) | Khi bạn đang gõ lệnh, bấm jk để thoát ra ngoài chế độ gõ, cho phép bạn cuộn chuột lên xuống để xem Log |
 ### 4. Lập trình & Code (LSP & Git)
@@ -51,7 +55,7 @@ Dưới đây là danh sách tổng hợp các phím tắt di chuyển và quả
 | ]h                    | Nhảy đến đoạn code có thay đổi so với Git tiếp theo.                                                        |
 | [h                    | Nhảy lùi về đoạn code có thay đổi trước đó.                                                                 |
 | <leader>hp            | Xem trước (Preview) đoạn code gốc đã bị bạn xóa hoặc sửa trước khi Commit.                                  |
-### 📝 Thao tác với File / Thư mục
+## 3. Thao tác với Yazi
 - **`Space`** (Phím cách) : Chọn hoặc Bỏ chọn file (để thao tác nhiều file cùng lúc)
 - **`y`** : Copy (Yank)
 - **`x`** : Cắt (Cut)
@@ -62,8 +66,9 @@ Dưới đây là danh sách tổng hợp các phím tắt di chuyển và quả
 - **`r`** : Đổi tên file (Rename)
 - **`/`** hoặc **`f`** : Lọc/tìm kiếm nhanh file trong thư mục hiện tại
 - **`s`** : Tìm kiếm nội dung file (tích hợp `fd`/`ripgrep`)
-### ⚡ Tác vụ Nâng cao (Custom & Task Manager)
+### Tác vụ Nâng cao (Custom & Task Manager)
 - **`w`** : **Mở Task Manager** (Để xem tiến độ % của các việc đang chạy ngầm như Copy/Paste, Nén/Giải nén, hoặc để Hủy ngang bằng phím `x`)
 - **`e`** : **Giải nén** file (zip, rar, 7z...) tuôn hết ra thư mục hiện hành
 - **`E`** (Shift + e) : **Giải nén nâng cao** (Sẽ hiện hộp thoại hỏi bạn muốn xả nén vào đâu)
 - **`c`** : **Nén file** (Cách dùng: Bấm `Space` chọn nhiều file -> Bấm `c` -> Đặt tên file nén `ten_file.zip` -> Enter)
+- **`g`** rồi bấm **`u`** : **Truy cập USB** (Nhảy nhanh vào thư mục `/run/media/hinne/` để xem USB)
