@@ -1,3 +1,12 @@
+---
+tags:
+  - os/linux
+  - tool/wm
+  - type/cheatsheet
+aliases:
+  - Niri Shortcuts
+  - Yazi Shortcuts
+---
 # Phím tắt Neovim & Kitty cơ bản
 Dưới đây là danh sách tổng hợp các phím tắt di chuyển và quản lý cửa sổ cơ bản nhất khi gõ code bằng Neovim trên Terminal Kitty.
 ## 🐱 Phím tắt Kitty (Quản lý Pane/Cửa sổ Terminal)

@@ -1,3 +1,12 @@
+---
+tags:
+  - it/homelab
+  - os/linux
+  - it/devops
+aliases:
+  - Máy chủ cá nhân
+  - Setup Home Server
+---
 ## 1. runit - Quản lý tiến trình
 - Dùng để làm gì: Quản lý các phần mềm chạy ngầm.
 - Tại sao lại cần: Trong Linux thông thường người ta dùng systemd, nhưng trên Android thì systemd rất dễ bị lỗi. runit là giải pháp thay thế cực kỳ nhẹ. Giả sử con bot Zalo-TG hoặc Caddy bị lỗi và văng ra ngoài (crash), runit sẽ ngay lập tức phát hiện và tự động khởi động lại. Nó đảm bảo server sống 24/7.

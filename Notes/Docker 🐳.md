@@ -1,3 +1,12 @@
+---
+tags:
+  - it/docker
+  - it/devops
+  - type/tutorial
+aliases:
+  - Học Docker
+  - Cơ bản Docker
+---
 ## 1. Hai Khái Niệm Quan Trọng Nhất
 
 Để dễ hình dung, hãy tưởng tượng Docker giống như việc đi mua một chiếc đĩa game:

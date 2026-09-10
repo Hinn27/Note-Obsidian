@@ -1,3 +1,12 @@
+---
+tags:
+  - os/linux
+  - tool/wm
+  - type/cheatsheet
+aliases:
+  - Phím tắt MangoWM
+  - MangoWM
+---
 # Cẩm nang Phím tắt MangoWM (Keyboard-First)
 
 Để theo đuổi phong cách "Keyboard-First", dưới đây là bảng tổng hợp các phím tắt đã được làm sạch và tối ưu trên máy bạn. Hãy bắt đầu làm quen với từng nhóm một nhé!

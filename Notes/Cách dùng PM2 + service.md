@@ -1,3 +1,13 @@
+---
+tags:
+  - tool/pm2
+  - it/devops
+  - dev/nodejs
+  - type/tutorial
+aliases:
+  - Hướng dẫn PM2
+  - Chạy ngầm Node.js
+---
 ### 🛠️ Cẩm nang Quản lý Bot bằng PM2 (Mới)
 
   ## 1. 🔄 Khởi động lại bot (Restart)

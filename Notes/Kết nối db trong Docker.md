@@ -1,3 +1,12 @@
+---
+tags:
+  - it/docker
+  - it/database
+  - it/devops
+aliases:
+  - Docker Database
+  - Setup DB Docker
+---
 ## 1. Nếu dùng DataGrip:
 - Mở DataGrip lên -> Bấm dấu + chọn Microsoft SQL Server.
 - Host: localhost

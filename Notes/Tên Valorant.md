@@ -1,3 +1,9 @@
+---
+tags:
+  - game/valorant
+aliases:
+  - Valorant Names
+---
 - [ ] đọt là phụ
 - [ ] ai tâm lý móc sẽ yếu
 - [ ] sích ma đặt
@@ -56,3 +62,4 @@
 - [ ] dinojaurrr
 - [ ] hornpub
 - [ ] đầu lạnh hơn dái
+- [ ] thích chọc lỗ 

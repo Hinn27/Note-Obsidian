@@ -1,3 +1,12 @@
+---
+tags:
+  - it/networking
+  - os/linux
+  - it/homelab
+aliases:
+  - Hướng dẫn Tailscale
+  - Mạng VPN Tailscale
+---
 ### 1. 🛡️ Shields up (Bật khiên bảo vệ):
 Giống như tàng hình. Vẫn có thể chui vào máy của bạn bè, nhưng KHÔNG AI trong mạng Tailscale được phép chui vào máy của. Bật cái này khi xài mạng công cộng mà sợ bị người khác nhòm ngó.
 ### 2. 💻 Enable SSH (Bật điều khiển từ xa):

@@ -1,3 +1,11 @@
+---
+tags:
+  - dev/nodejs
+  - type/qna
+aliases:
+  - Hỏi đáp Node.js
+  - Node.js QnA
+---
 # 1. Quy trình Setup chuẩn xác nhất sẽ là:
 ### 1. Cài `fnm` vào hệ thống trước.
 ### 2. Dùng `fnm` để tải và cài phiên bản Node LTS hiện tại:

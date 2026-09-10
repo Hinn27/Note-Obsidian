@@ -1,3 +1,11 @@
+---
+tags:
+  - it/ai
+  - type/review
+aliases:
+  - So sánh AI
+  - LLMs
+---
 ## I. Paid Tier:
 ### 1. **Claude Sonnet**
 - Làm việc với cấu trúc thư mục phức tạp tốt
